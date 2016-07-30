@@ -4,24 +4,74 @@ body {
 	background-image: url(../images/mars-stock.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+
+	color: black;
+	font-size: 1.1em;
+	font-weight: 300;
+	font-family: 'Raleway';
 }
 
 nav,
 main,
 section,
 footer {
-	background-color: #ddd;
+	background-color: white;
+	border: solid 1px black;
+	/*box-shadow: 2px 1px 3px #333;*/
+}
+
+a,
+a:link,
+a:visited,
+a:focus {
+	color: #e18344;
+	font-weight: 400;
+}
+
+a:hover {
+	color: #ae475c;
+	text-decoration: none;
+}
+
+nav a,
+nav a:link,
+nav a:visited,
+nav a:focus {
+	/*color: #e18344;*/
+	font-size: 1.3em;
+	font-family: 'Orbitron';
+	font-weight: bold;
+}
+
+nav a:hover {
+	/*color: #ae475c;*/
+}
+
+
+h1,
+h2 {
+	color: #333;
+	font-family: 'Orbitron';
+}
+
+.img-border {
+	border: solid 1px black;
 }
 
 
 
 
-/* Small devices (landscape phones, 544px and up) */
+/*Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
-
+	.img-bio {
+		margin-left: 1em;
+		width: 45%;
+		display: block;
+		float: right;
+	}
 }
 
-/* Medium devices (tablets, 768px and up) */
+/*Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
 }
@@ -31,9 +81,9 @@ footer {
 	.img-bio {
 		margin-left: 1em;
 		margin-bottom: 1em;
-		height: 150px;
+		width: 155px;
 		position: absolute;
-		top: 2.6em;
+		top: 1.5em;
 		right: 1.6em;
 	}
 }
@@ -48,10 +98,10 @@ footer {
 
 
 
-.img-top-left {
+/*.img-top-left {
 	margin-top: 0.3em;
 	margin-right: 1em;
 	margin-bottom: 1em;
 	width: 40%;
 	float: left;
-}
+}*/
