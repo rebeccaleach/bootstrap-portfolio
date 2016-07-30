@@ -1,5 +1,7 @@
 /* BOOTSTRAP PORTFOLIO */
 
+@import url('bootstrap.css');
+
 body {
 	background-image: url('../images/mars-stock.jpg');
 	background-size: cover;
