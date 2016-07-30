@@ -1,0 +1,57 @@
+/* BOOTSTRAP PORTFOLIO */
+
+body {
+	background-image: url(../images/mars-stock.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+nav,
+main,
+section,
+footer {
+	background-color: #ddd;
+}
+
+
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.img-bio {
+		margin-left: 1em;
+		margin-bottom: 1em;
+		height: 150px;
+		position: absolute;
+		top: 2.6em;
+		right: 1.6em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+.img-top-left {
+	margin-top: 0.3em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 40%;
+	float: left;
+}
