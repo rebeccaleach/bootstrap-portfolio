@@ -1,7 +1,7 @@
 /* BOOTSTRAP PORTFOLIO */
 
 body {
-	background-image: url(../images/mars-stock.jpg);
+	background-image: url('../images/mars-stock.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 
