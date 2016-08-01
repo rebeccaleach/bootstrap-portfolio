@@ -7,7 +7,7 @@
 }
 
 body {
-	background-image: url('../images/mars-stock.jpg');
+	background-image: url('../images/background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -28,6 +28,20 @@ header {
 	font-size: 30px;
 	font-family: 'Orbitron';
 	line-height: 0.5em;
+}
+
+header a,
+header a:link,
+header a:visited,
+header a:focus {
+	color: white;
+	text-decoration: none;
+	transition: color 0.7s ease;
+}
+
+header a:hover {
+	color: #a3c3c7;
+	text-decoration: none;
 }
 
 nav,
@@ -71,11 +85,6 @@ nav a:hover {
 	/*color: #ae475c;*/
 }
 
-.logo {
-	width: 80px;
-	float: right;
-}
-
 
 h1,
 h2 {
@@ -94,11 +103,29 @@ h2 {
 .img-bio {
 	margin: 0 auto;
 	width: 60%;
-}
-
-.img-border {
 	border: solid 1px black;
 }
+
+.figure {	
+	width: 100%;
+}
+
+.img-figure {
+	width: 100%;
+	border: solid 1px black;
+}
+
+.photo-credit {
+	color: #666;
+	font-size: 0.7em;
+	text-align: right;
+}
+
+.figure-caption {
+	color: #666;
+	font-weight: 400;
+}
+
 
 
 
@@ -124,6 +151,15 @@ h2 {
 		position: relative;
 		top: -100px;
 	}
+
+	.figure {
+		margin-left: 1em;
+		margin-bottom: 1em;
+		width: 40%;
+		display: inline-block;
+		float: right;
+	}
+
 }
 
 /*Medium devices (tablets, 768px and up) */
