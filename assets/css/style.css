@@ -46,6 +46,7 @@ header a:hover {
 
 nav,
 main,
+.sidebar,
 section,
 footer {
 	background-color: rgba(255,255,255,0.85);
@@ -87,9 +88,22 @@ nav a:hover {
 
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: #333;
 	font-family: 'Orbitron';
+}
+
+
+.sidebar-wrap {
+	padding: 0;
+}
+
+footer img {
+	width: 40px;
 }
 
 .display-1 {
