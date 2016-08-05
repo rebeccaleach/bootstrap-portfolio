@@ -2,89 +2,172 @@
 
 <html lang="en">
 
-	<head>
+  <head>
 
-  	<meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>contact | rebecca leach</title>
+    <title>About | Rebecca Leach</title>
 
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
 
-	</head>
+    <link rel="stylesheet" href="assets/css/import.css">
 
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:900,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,800' rel='stylesheet' type='text/css'>
 
-	<body>
-
-    <div class="wrapper">
-
-      <header>
-
-        <div class="container">
-
-          <h1 class="headline">rebecca leach</h1>
-
-          <nav>
-            
-            <ul>
-              <li><a href="index.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-          </nav>
-
-        </div>
-
-      </header>
-
-      <div class="container">
-
-        <main>
-          
-          <h2 class="subhead">contact</h2>
-
-          <form>
-
-            <label>name</label><br>
-            <input type="text" name="name" placeholder="Aeryn Sun"><br>
-            <label>email</label><br>
-            <input type="email" name="email" placeholder="aerynsun@peacekeepers.gov"><br>
-            <label>message</label><br>
-            <textarea id="msg" name="message"></textarea><br>
-            <button type="submit">submit</button>
-
-          </form>
-
-        </main>
+  </head>
 
 
-        <section class="sidebar">
+  <body>
 
-          <h3 class="sidehead">connect with me</h3>
+    <div class="container">
 
-          <ul>
-            <li><a href="https://github.com/rebeccaleach"><img src="assets/images/github.png" alt="github icon"></a></li>
-            <li><a href="https://stackoverflow.com/users/6605973/rebecca-leach"><img src="assets/images/stackoverflow.png" alt="stackoverflow icon"></a></li>
-            <li><a href="https://www.linkedin.com/in/rebecca-leach-10688646"><img src="assets/images/linkedin.png" alt="linkedin icon"></a></li>
-          </ul>
 
-        </section>
+      <div class="row">
+
+        <header class="col-lg-10 offset-lg-1 m-t-3 p-a-0">
+          <a href="index.html">Rebecca Leach</a>
+        </header>
 
       </div>
 
-      <div class="push"></div> <!-- sticky footer component -->
+      <div class="row">
 
-    </div>
 
-    <footer>
+        <nav class="navbar col-lg-10 offset-lg-1 m-b-2 p-x-2 p-y-0">
+        
+          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+            &#9776;
+          </button>
 
-      <p>Copyright &copy; 2016 by Rebecca Leach</p>
+          <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+            
+            <ul class="nav navbar-nav">
+              <li class="nav-item p-r-2"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item p-r-2"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+              <li class="nav-item p-r-2"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
 
-    </footer>
+          </div>
 
-	</body>
+        </nav>
+
+      </div>
+
+
+      <div class="row">
+
+          <main class="col-lg-6 offset-lg-1 p-a-2 clearfix"> <!-- begin main content -->
+
+
+
+          <h2 class="subhead">Contact</h2>
+
+          <form>
+
+            <label>Name</label><br>
+            <input type="text" name="name" placeholder="Aeryn Sun"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="aerynsun@peacekeepers.gov"><br>
+            <label>Message</label><br>
+            <textarea id="msg" name="message"></textarea><br>
+            <button type="submit">Submit</button>
+
+          </form>
+
+
+
+
+          </main>
+
+
+          <div class="col-lg-4  col-lg-height sidebar-wrap"> <!-- begin sidebar -->
+
+            <div class="p-a-2 sidebar-row">
+
+              <h3>Connect</h3>
+
+              <ul class="list-inline social">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/rebecca-leach-10688646"><img src="assets/images/linkedin.png" alt="linkedin icon"></a></li>
+                <li class="list-inline-item"><a href="https://github.com/rebeccaleach"><img src="assets/images/github.png" alt="github icon"></a></li>
+                <li class="list-inline-item"><a href="https://stackoverflow.com/users/6605973/rebecca-leach"><img src="assets/images/stackoverflow.png" alt="stackoverflow icon"></a></li>
+              </ul>
+
+            </div> <!-- closes sidebar-row -->
+
+
+            <div class="p-a-2 sidebar-row"> <!-- SECOND sidebar-row -->
+
+              <h3>Siteroll</h3>
+
+              <h6>Favorite Coding Resources</h6>
+
+              <ul>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
+                <li><a href="https://teamtreehouse.com/home">Treehouse</a></li>
+                <li><a href="http://haseebq.com/">Haseeb Qureshi</a></li>
+              </ul>
+
+
+              <h6>Favorite Writing Resources</h6>
+
+              <ul>
+                <li><a href="http://weneeddiversebooks.org/">We Need Diverse Books</a></li>
+                <li><a href="http://writingwithcolor.tumblr.com/">Writing with Color</a></li>
+                <li><a href="http://diversityinya.tumblr.com/">Diversity in YA</a></li>
+                <li><a href="https://pacemaker.press/">Pacemaker.press</a></li>
+                <li><a href="http://www.nanowrimo.org">NaNoWriMo</a></li>
+              </ul>
+
+              <h6>Other Cool Things</h6>
+
+              <ul>
+                <li><a href="http://questionablecontent.net/">Questionable Content</a></li>
+                <li><a href="http://reyfinndameron.tumblr.com/">Rey/Finn/Dameron</a></li>
+                <li><a href="https://themighty.com/">The Mighty</a></li>
+                <li><a href="http://www.laurawitwer.com/blog/">Laura Witwer</a></li>
+              </ul>
+
+
+<!--               <h6>Title</h6>
+
+              <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul> -->
+
+            </div> <!-- closes SECOND sidebar-row -->
+
+          </div> <!-- end sidebar -->
+
+
+      </div> <!-- closes row -->
+
+
+
+      <div class="row"> <!-- begin footer -->
+
+        <footer class="col-lg-10 offset-lg-1 m-y-1 p-a-1 text-xs-center">
+
+          <small>Copyright &copy; 2016 by Rebecca Leach</small>
+
+        </footer>
+
+      </div>
+
+    </div> <!-- end of container div -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+
+  </body>
 
 
 </html>
