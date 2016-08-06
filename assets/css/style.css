@@ -81,10 +81,6 @@ nav a:focus {
 	font-weight: bold;
 }
 
-nav a:hover {
-	/*color: #ae475c;*/
-}
-
 
 h1,
 h2,
@@ -124,6 +120,7 @@ footer {
 
 
 
+/*** Content Styles ****/
 
 
 .display-1 {
@@ -162,6 +159,102 @@ footer {
 
 .social img {
 	width: 40px;
+}
+
+.social img:hover {
+  animation: rock-and-roll 1s 1;
+}
+
+@keyframes rock-and-roll {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
+.portfolio li {
+	margin-bottom: 1em;
+  max-width: 500px;
+  position: relative;
+  border: solid 1px black;
+  transition: opacity 0.5s ease;
+}
+
+.portfolio li:hover {
+  opacity: 0.5;
+}
+
+.portfolio li img {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.portfolio .figcaption {
+  margin-bottom: 2em;
+  padding: 2% 1em;
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  bottom: 1%;
+  background-color: #3a868c;
+  color: white;
+  opacity: 0.8;
+}
+
+
+form input,
+form textarea {
+  margin-bottom: 1em;
+  padding: 0.2em;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 1.3em;
+}
+
+form textarea {
+  min-height: 150px;
+}
+
+.form-button {
+  min-width: 100px;
+  min-height: 50px;
+  background-color: #3a868c;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  transition: background-color 0.7s ease;
+}
+
+.form-button:hover {
+	background-color: #015865;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 
